@@ -1,8 +1,6 @@
 # Spring PetClinic Sample Application With DevOps [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 Using PetClinic to practice DevOps, 
-<a>
-    <ima src="https://code-maze.com/wp-content/uploads/2018/07/HighLevelFlow.png">
-</a>
+<ima src="https://code-maze.com/wp-content/uploads/2018/07/HighLevelFlow.png">
 Deploy this sample application to Pivotal Web Services:
 <a href="https://push-to.cfapps.io?repo=https%3A%2F%2Fgithub.com%2Fspring-projects%2Fspring-petclinic.git">
     <img src="https://push-to.cfapps.io/ui/assets/images/Push-to-Pivotal-Dark.svg" width="130" alt="Push" align="top">
