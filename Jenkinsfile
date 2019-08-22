@@ -1,27 +1,10 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3-alpine' 
-            args '-v /home/osboxes/.m2:/root/.m2' 
-        }
-    }
+    agent { docker 'node:6.3' }
     stages {
-        stage('Build') { 
+        stage('build') {
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                sh 'npm --version'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'mvn test'
-            }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
-                }
-            }
-        }
-  
     }
-
 }
