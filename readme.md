@@ -2,7 +2,7 @@
 Using PetClinic to practice DevOps, 
 <ima width="1042"  src="https://code-maze.com/wp-content/uploads/2018/07/HighLevelFlow.png">
 Deploy this sample application to Pivotal Web Services:
-<a href="https://push-to.cfapps.io?repo=https%3A%2F%2Fgithub.com%2Fspring-projects%2Fspring-petclinic.git">
+<a href="https://push-to.cfapps.io?repo=https%3A%2F%2Fgithub.com%2Fwanghongbin99%2Fspring-petclinic.git">
     <img src="https://push-to.cfapps.io/ui/assets/images/Push-to-Pivotal-Dark.svg" width="130" alt="Push" align="top">
 </a>
 
@@ -14,7 +14,7 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 
 
 ```
-git clone https://github.com/spring-projects/spring-petclinic.git
+git clone https://github.com/wanghongbin99/spring-petclinic.git
 cd spring-petclinic
 ./mvnw package
 java -jar target/*.jar
